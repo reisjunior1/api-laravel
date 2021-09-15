@@ -10,6 +10,8 @@ DB_DATABASE=api-laravel\
 DB_USERNAME=root\
 DB_PASSWORD=\
 
+O diagrama ER com o modelo de dados da aplicação está dentro da pasta img (imgs\diagrama_er.png).
+
 ## URLS
 
 1. Obter moedas - http://api-laravel.test/obter_moedas \
