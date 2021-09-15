@@ -2,13 +2,6 @@
 ## Instruções de uso
 Aplicação desenvolvida com o framework MVC Laravel. Banco de Dados MySQL.
 
-## Dados conexão com o Banco de dados
-DB_CONNECTION=mysql\
-DB_HOST=127.0.0.1\
-DB_PORT=3306\
-DB_DATABASE=api-laravel\
-DB_USERNAME=root\
-DB_PASSWORD=\
 
 O diagrama ER com o modelo de dados da aplicação está dentro da pasta img (imgs\diagrama_er.png).
 
