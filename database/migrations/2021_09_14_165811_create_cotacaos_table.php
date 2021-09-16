@@ -15,7 +15,7 @@ class CreateCotacaosTable extends Migration
     {
         Schema::create('cotacaos', function (Blueprint $table) {
             $table->id();
-            $table->string('m_simbolo', 3);
+            $table->char('m_simbolo', 3);
             $table->foreign('m_simbolo')->references('simbolo')->on('moedas');
             $table->double("compra");
             $table->double("venda");
