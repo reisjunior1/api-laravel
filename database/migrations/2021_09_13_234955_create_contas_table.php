@@ -15,7 +15,7 @@ class CreateContasTable extends Migration
     {
         Schema::create('contas', function (Blueprint $table) {
             $table->id();
-            $table->string('numero')->unique();
+            $table->char('numero',4)->unique();
             $table->timestamps();
         });
     }

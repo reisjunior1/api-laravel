@@ -15,7 +15,7 @@ class CreateSaldosTable extends Migration
     {
         Schema::create('saldos', function (Blueprint $table) {
             $table->id();
-            $table->string("c_numero");
+            $table->char('c_numero', 4);
             $table->foreign('c_numero')->references('numero')->on('contas');
             $table->string('m_simbolo', 3);
             $table->foreign('m_simbolo')->references('simbolo')->on('moedas');

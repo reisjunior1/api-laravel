@@ -21,4 +21,8 @@ class ContaTest extends TestCase
         //dd($array_comparacao);
         $this->assertEquals(0, count($array_comparacao));
     }
+
+    public function check_se_dado_inserido_conta_esta_correto(){
+        $this->browser;
+    }
 }

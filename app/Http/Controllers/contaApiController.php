@@ -82,7 +82,7 @@ class contaApiController extends Controller
             return response()->json('dado invalido');
         }
         $length = Str::length($req->get('numero'));
-        if ($length > 4) {
+        if ($length != 4) {
             return response()->json('dado invalido');
         }
 
